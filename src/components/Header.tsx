@@ -6,7 +6,7 @@ import DarkModeToggle from "./DarkModeToggle";
 import LogOutButton from "./LogOutButton";
 
 function Header() {
-  const user = 1;
+  const user = null;
   return (
     <header
       className="bg-popover relative flex h-24 w-full items-center justify-between px-3 sm:px-8"
