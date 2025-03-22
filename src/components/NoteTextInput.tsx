@@ -5,6 +5,7 @@ import { Textarea } from "./ui/textarea";
 import { ChangeEvent, useEffect } from "react";
 import { debounceTimeout } from "@/lib/contants";
 import useNote from "@/hooks/useNote";
+import { updateNoteAction } from "@/actions/notes";
 
 type Props = {
   noteId: string;
